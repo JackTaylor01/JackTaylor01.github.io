@@ -206,7 +206,7 @@ svg {
     --max-width-xxs: 32rem;
     --max-width-xs: 38rem;
     --max-width-sm: 48rem;
-    --max-width-md: 64rem;
+    --max-width-md: 46rem;
     --max-width-lg: 80rem;
     --max-width-xl: 90rem;
     --max-width-xxl: 120rem
@@ -235,7 +235,7 @@ svg {
 }
 
 .max-width-md {
-    max-width: 64rem;
+    max-width: 46rem;
     max-width: var(--max-width-md)
 }
 
@@ -259,7 +259,7 @@ svg {
     max-width: var(--max-width-xs)
 }
 
-@media (min-width: 64rem) {
+@media (min-width: 46rem) {
     .max-width-adaptive-sm {
         max-width: 48rem;
         max-width: var(--max-width-sm)
@@ -271,9 +271,9 @@ svg {
     max-width: var(--max-width-xs)
 }
 
-@media (min-width: 64rem) {
+@media (min-width: 46rem) {
     .max-width-adaptive-md {
-        max-width: 64rem;
+        max-width: 46rem;
         max-width: var(--max-width-md)
     }
 }
@@ -284,11 +284,11 @@ svg {
     max-width: var(--max-width-xs)
 }
 
-@media (min-width: 64rem) {
+@media (min-width: 46rem) {
 
     .max-width-adaptive,
     .max-width-adaptive-lg {
-        max-width: 64rem;
+        max-width: 46rem;
         max-width: var(--max-width-md)
     }
 }
@@ -307,9 +307,9 @@ svg {
     max-width: var(--max-width-xs)
 }
 
-@media (min-width: 64rem) {
+@media (min-width: 46rem) {
     .max-width-adaptive-xl {
-        max-width: 64rem;
+        max-width: 46rem;
         max-width: var(--max-width-md)
     }
 }
@@ -744,7 +744,7 @@ svg {
     }
 }
 
-@media (min-width: 64rem) {
+@media (min-width: 46rem) {
     .col\@md {
         -ms-flex-positive: 1;
         flex-grow: 1;
@@ -1657,13 +1657,13 @@ u,
     }
 }
 
-@media not all and (min-width: 64rem) {
+@media not all and (min-width: 46rem) {
     .display\@md {
         display: none !important
     }
 }
 
-@media (min-width: 64rem) {
+@media (min-width: 46rem) {
     .hide\@md {
         display: none !important
     }
@@ -1904,7 +1904,7 @@ u,
     }
 }
 
-@media (min-width: 64rem) {
+@media (min-width: 46rem) {
     .flex-wrap\@md {
         -ms-flex-wrap: wrap;
         flex-wrap: wrap
@@ -2674,7 +2674,7 @@ u,
     }
 }
 
-@media not all and (min-width: 64rem) {
+@media not all and (min-width: 46rem) {
     .has-margin\@md {
         margin: 0 !important
     }
@@ -3172,7 +3172,7 @@ u,
     }
 }
 
-@media not all and (min-width: 64rem) {
+@media not all and (min-width: 46rem) {
     .has-padding\@md {
         padding: 0 !important
     }
@@ -3243,7 +3243,7 @@ u,
     }
 }
 
-@media (min-width: 64rem) {
+@media (min-width: 46rem) {
     .text-center\@md {
         text-align: center
     }
@@ -3500,7 +3500,7 @@ u,
 }
 
 @supports (--css: variables) {
-    @media (min-width: 64rem) {
+    @media (min-width: 46rem) {
         :root {
             --space-unit: 1.25em
         }
@@ -3528,7 +3528,7 @@ u,
 }
 
 @supports (--css: variables) {
-    @media (min-width: 64rem) {
+    @media (min-width: 46rem) {
         :root {
             --text-base-size: 1.25em;
             --text-scale-ratio: 1.25
@@ -3685,7 +3685,7 @@ mark {
     text-decoration: none
 }
 
-@media (min-width: 64rem) {
+@media (min-width: 46rem) {
     .cd-faq {
         position: relative;
         box-shadow: none;
@@ -3698,28 +3698,8 @@ mark {
     }
 }
 
-@media (min-width: 64rem) {
-    .cd-faq__categories {
-        position: -webkit-sticky;
-        position: sticky;
-        -ms-flex-item-align: start;
-        align-self: flex-start;
-        -ms-flex-negative: 0;
-        flex-shrink: 0;
-        top: 20px;
-        width: 20%;
-        box-shadow: 0 1px 2px rgba(0, 0, 0, .085), 0 1px 8px rgba(0, 0, 0, .1);
-        box-shadow: var(--shadow-sm);
-        margin-top: 1.25em;
-        margin-top: var(--space-md)
-    }
-}
 
-@media (min-width: 80rem) {
-    .cd-faq__categories {
-        width: 200px
-    }
-}
+
 
 .cd-faq__category {
     position: relative;
@@ -3763,7 +3743,7 @@ li:last-child .cd-faq__category {
     border-bottom: none
 }
 
-@media (min-width: 64rem) {
+@media (min-width: 46rem) {
     .cd-faq__category {
         font-size: 0.69444em;
         font-size: var(--text-xs);
@@ -3837,7 +3817,7 @@ li:last-child .cd-faq__category {
     transition: transform .3s, -webkit-transform .3s
 }
 
-@media (min-width: 64rem) {
+@media (min-width: 46rem) {
     .cd-faq__items {
         position: static;
         height: auto;
@@ -3873,7 +3853,7 @@ html:not(.js) .cd-faq__items {
     display: none
 }
 
-@media (min-width: 64rem) {
+@media (min-width: 46rem) {
     .cd-faq__group {
         display: block;
         padding-top: 1px
@@ -3899,7 +3879,7 @@ html:not(.js) .cd-faq__group,
     color: hsl(var(--color-contrast-low-h), var(--color-contrast-low-s), calc(var(--color-contrast-low-l)*0.9))
 }
 
-@media (min-width: 64rem) {
+@media (min-width: 46rem) {
     .cd-faq__title {
         margin-bottom: 0.75em;
         margin-bottom: var(--space-sm)
@@ -3911,7 +3891,7 @@ html:not(.js) .cd-faq__group,
     }
 }
 
-@media (min-width: 64rem) {
+@media (min-width: 46rem) {
     .cd-faq__item {
         background: hsl(0, 0%, 100%);
         background: var(--cd-color-4);
@@ -3928,7 +3908,7 @@ html:not(.js) .cd-faq__group,
         box-shadow: 0 1px 10px var(--box-shadow)
     }
 
-    @media (min-width: 64rem) {
+    @media (min-width: 46rem) {
         .cd-faq__item:hover {
             box-shadow: 0 1px 10px hsla(210, 14%, 49%, 0.3);
             box-shadow: 0 1px 10px var(--box-shadow)
@@ -3949,7 +3929,7 @@ html:not(.js) .cd-faq__group,
     color: var(--cd-color-2)
 }
 
-@media (min-width: 64rem) {
+@media (min-width: 46rem) {
     .cd-faq__trigger {
         font-weight: 300;
         margin: 0;
@@ -4014,7 +3994,7 @@ html:not(.js) .cd-faq__group,
     color: var(--cd-color-3)
 }
 
-@media (min-width: 64rem) {
+@media (min-width: 46rem) {
     .cd-faq__content {
         display: none;
         padding: 0 0.75em;
@@ -4033,7 +4013,7 @@ html:not(.js) .cd-faq__group,
     display: block
 }
 
-@media (min-width: 64rem) {
+@media (min-width: 46rem) {
     html:not(.js) .cd-faq__content {
         display: block
     }
@@ -4079,7 +4059,7 @@ html:not(.js) .cd-faq__group,
     transform: rotate(-45deg)
 }
 
-@media (min-width: 64rem) {
+@media (min-width: 46rem) {
     .cd-faq__close-panel {
         display: none
     }
@@ -4104,7 +4084,7 @@ html:not(.js) .cd-faq__group,
     transition: opacity .3s, visibility .3s
 }
 
-@media (min-width: 64rem) {
+@media (min-width: 46rem) {
     .cd-faq__overlay {
         display: none
     }
@@ -4146,7 +4126,7 @@ body {
 }
 
 .cd-header h5 {
-    font-size: 1.1em;
+    font-size: 1.2em;
     font-weight: 300;
     color: hsl(0, 0%, 100%);
     color: var(--cd-color-4);
