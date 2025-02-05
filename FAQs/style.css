@@ -35,30 +35,11 @@ header {
 }
 
 .logo {
-    max-width: 1750px; /*  Start with a sensible default. */
-    height: auto;     /*  Maintain aspect ratio. VERY IMPORTANT! */
-    display: block;    /* Make the image a block-level element for easier control.*/
-    /* Optional: Center the logo horizontally (if desired)*/
+    width: 150px;
+    height: 150px;
     margin-right: 10px;
 }
 
-@media (max-width: 767px) {  /*  767px is a common breakpoint for phones. */
-    .logo {
-        width: 45%;       /*  Set width to 25% of the screen width. */
-        /* max-width is still in effect, preventing over-stretching */
-    }
-}
-
-/* Styles for larger screens (desktops and tablets) */
-@media (min-width: 768px) { /* 768px and above is typically desktop/tablet. */
-    .logo {
-        width: 200px;  /*  Set a fixed width for larger screens.  Change this value! */
-        /*  max-width: 100% is no longer strictly needed here,
-            but it's harmless and good practice to leave it.
-            If you later change the fixed width to something larger than the
-            image, max-width will prevent pixelation. */
-    }
-}
 
 
 /*.logo {
