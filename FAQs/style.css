@@ -1,15 +1,31 @@
 body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    background-image: url('background.jpg');
-    background-size: cover;
-    background-position: center;
-    background-attachment: fixed;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(-45deg, #2E3192, #1BFFFF);
+  background-size: 400% 400%;
+  animation: gradient 5s ease infinite;
+  height: 100vh; /* Important for full-page background */
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.photos {
+    text-align: center;
 }
 
 header {
-    background-color: rgba(0, 0, 0, 0.7);
+    background-color: rgba(0, 0, 0, 00);
     color: white;
     padding: 1rem;
     text-align: center;
@@ -27,8 +43,13 @@ header {
 h1 {
     margin: 0;
 }
+
+h2 {
+    text-align: center;
+}
 h5 {
     margin: 0;
+    text-align: center;
 }
 
 li {
